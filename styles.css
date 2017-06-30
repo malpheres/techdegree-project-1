@@ -45,6 +45,7 @@ a:hover {
 }
 
 .nav .name {
+    font-family: 'Roboto', sans-serif;
     display: block;
     margin-right: auto;
     color: white;
@@ -106,6 +107,14 @@ header .profile-image:hover {
   border-color: #ff99ff;
 }
 
+.card a {
+  color: #228B22;
+}
+
+.card a:hover {
+  color: #6633ff;
+}
+
 ul.skills {
   padding: 0;
   text-align: center;
@@ -123,6 +132,30 @@ ul.skills {
 .skills li:nth-child(odd) {
   background: #0399ff;
 }
+
+/* Experience/About Styles */
+
+.port {
+  max-width: 100%;
+  margin: 5px auto;
+  padding: 0 5%;
+}
+
+.pp {
+  max-width: 40%;
+  margin: 2px;
+  border-radius: 100%;
+}
+
+.profile-photo {
+  display: block;
+  float: left;
+  max-width: 150px;
+  margin: 0 auto 30px;
+  border-radius: 100%;
+}
+
+/* Footer Styles */
 
 footer {
   width: 100%;
